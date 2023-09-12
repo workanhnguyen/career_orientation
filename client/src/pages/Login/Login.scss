@@ -1,0 +1,14 @@
+#login {
+
+    .image-cover {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url('../../assets/cover.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+    }
+}

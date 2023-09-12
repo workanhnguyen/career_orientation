@@ -1,0 +1,21 @@
+#input-with-label {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 4px 0px;
+    
+    input {
+        border: none;
+        border-bottom: 1px solid var(--gray-color);
+        padding: 2px 0px;
+        background-color: transparent;
+        font-size: 1rem;
+
+        &:focus {
+            border-bottom: 1px solid var(--primary-color);
+            transition: all 0.2s ease-in-out;
+        }
+    }
+}

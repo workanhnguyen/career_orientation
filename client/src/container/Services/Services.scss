@@ -1,0 +1,85 @@
+/*-----------------------------------------------------------
+  Services
+-------------------------------------------------------------*/
+.services {
+    padding: 50px 0px;
+    margin-bottom: 50px;
+  }
+  .services p {
+    font-size: 1.0rem;
+    color: #314584;
+    line-height: 1.5rem;
+  }
+  .side-img img {
+    position: absolute;
+    left: -20px;
+  }
+  .side2-img img {
+    position: absolute;
+    right: -20px;
+    top: 1300px;
+  }
+  .service-box {
+    background-color: red;
+    width: 100%;
+    padding: 40px 45px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
+    box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
+    min-height: 560px;
+  }
+  .service-box img {
+    margin-bottom: 30px;
+  }
+  .service-title {
+    margin-bottom: 36px;
+  }
+  .service-btn {
+    margin-bottom: 50px;
+  }
+  .item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    min-height: 560px;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
+    box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
+    padding: 40px 45px;
+    margin: 10px;
+
+    img {
+        --width: 300px;
+        width: var(--width);
+    }
+    h3 {
+        width: 100%;
+    }
+    div {
+        width: 100%;
+    }
+    a {
+        float: left;
+        text-decoration: none;
+        font-size: 1.1rem;
+        padding: 12px 48px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--primary-color);
+        color: var(--white-color);
+
+        &:hover {
+            background-color: var(--white-color);
+            color: var(--secondary-color);
+            text-decoration: underline;
+            outline: 2px solid var(--primary-color);
+            box-shadow: 0px 1px 4px var(--primary-color);
+            transition: 0.3s ease-out;
+        }
+        
+    }
+  }

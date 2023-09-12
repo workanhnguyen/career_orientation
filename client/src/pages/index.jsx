@@ -1,0 +1,7 @@
+export { default as Home } from './Home/Home'
+export { default as Register } from './Register/Register'
+export { default as Login } from './Login/Login'
+export { default as Main } from './Main/Main'
+export { default as SearchUniversity } from './SearchUniversity/SearchUniversity'
+export { default as Survey } from './Survey/Survey'
+export { default as User } from './User/User'

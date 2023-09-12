@@ -1,0 +1,96 @@
+.navbar {
+    padding: 50px 0 0 0;
+}
+
+.navbar-light .navbar-brand {
+    margin-right: 10%;
+}
+
+.navbar-light .navbar-toggler {
+    color: #314584;
+    border: none;
+}
+.navbar-toggler {
+    padding: .5rem 1.2rem .25rem 0rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #314584;
+    font-size: 1.1rem;
+  }
+
+.navbar-nav .dropdown-menu {
+    text-align: center;
+    border: 0;
+    background-color: #314584;
+  }
+  .navbar-nav .dropdown-menu a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin: 10px 0px;
+  }
+
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FF3946;
+  }
+  .navbar {
+    padding: 50px 0 0 0;
+  }
+  .navbar-light .navbar-brand {
+    margin-right: 10%;
+  }
+  .nav-item {
+    padding: 0 10px;
+  }
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #FF3946;
+  }
+//-------------------------------------------------
+
+.interactive-menu-button {
+    position: relative;
+}
+  .interactive-menu-button a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: relative;
+  }
+  .interactive-menu-button a span {
+    height: 4px;
+    position: absolute;
+    background: #314584;
+    text-indent: -999em;
+    width: 100%;
+    top: 6px;
+    transition: all 0.5s cubic-bezier(0, 0.275, 0.125, 1);
+  }
+  .interactive-menu-button a span:before,
+  .interactive-menu-button a span:after {
+    content: '';
+    height: 4px;
+    background: #314584;
+    width: 100%;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    transition: all 0.5s cubic-bezier(0, 0.275, 0.125, 1);
+  }
+  .interactive-menu-button a span:after {
+    top: 6px;
+  }
+  .interactive-menu-button a.active span {
+    background: transparent;
+  }
+  .interactive-menu-button a.active span:before {
+    transform: translateY(6px) translateX(1px) rotate(45deg);
+  }
+  .interactive-menu-button a.active span:after {
+    transform: translateY(-6px) translateX(1px) rotate(-45deg);
+  }

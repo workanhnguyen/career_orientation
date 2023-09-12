@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --font-base: "DM Sans", sans-serif;
+
+  --primary-color: #FF3946;
+  --secondary-color: #313bac;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+
+  --hover-color: rgb(255, 200, 0);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/*-----------------------------------------------------------
+    1. General Styles 
+-------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+a {
+  font-weight: 600;
+  color: #314584;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+a:focus,
+a:hover {
+  color: rgba(44, 44, 44, 0.8);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: #314584;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+:active,
+:focus {
+  outline: none !important;
+}
+
+/*-----------------------------------------------------------
+  2. Typography 
+------------------------------------------------------------*/
+body {
+  color: #314584;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  overflow-x: hidden;
+  transition: opacity 1s;
+  min-width: 330px;
+}
+
+h1,
+.h1 {
+  font-size: 4.4rem;
+  margin-bottom: 20px;
+}
+
+h2,
+.h2 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin-bottom: 50px;
+}
+
+.about h2 {
+  margin-bottom: 25px;
+}
+
+h3,
+.h3 {
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  margin-bottom: 15px;
+}
+
+h4,
+.h4 {
+  font-size: 24px;
+}
+
+h5,
+.h5 {
+  font-size: 1rem;
+  color: #ff3946;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.about p {
+  color: #314584;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #6e757a;
+  margin-bottom: 15px;
+  letter-spacing: 0.025em;
+}
+
+/*-----------------------------------------------------------
+  3. Buttons & Links
+-------------------------------------------------------------*/
+.contact-btn button {
+  width: 200px;
+  height: 60px;
+  border: 0px;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(30, 32, 33, 0.07);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(30, 32, 33, 0.07);
+  box-shadow: 0px 4px 6px 0px rgba(30, 32, 33, 0.07);
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  color: #ff3946;
+}
+.contact-btn button:hover {
+  background-color: #ff3946;
+  color: var(--white-color);
+  transition: all 0.3s ease;
+}
+
+.contact-btn i {
+  font-size: 2rem;
+  width: 100px;
+  height: 100px;
+  color: #ff3946;
+}
+
+.hero-btns a:first-child {
+  background-color: #ff3946;
+  border: 2px solid #ff3946;
+  text-decoration: none;
+  color: #fff;
+  padding: 17px 35px;
+  font-size: 1rem;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(255, 57, 70, 0.15);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(255, 57, 70, 0.15);
+  box-shadow: 0px 4px 5px 0px rgba(255, 57, 70, 0.15);
+}
+
+.hero-btns a:first-child:hover {
+  background-color: #fff;
+  border: 2px solid #ff3946;
+  color: #314584;
+  padding: 17px 35px;
+  font-size: 1rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+.active {
+  color: #fff !important;
+}
+.active:hover {
+  color: var(--secondary-color) !important;
+  text-decoration: underline !important;
+}
+.btn-signin {
+  background-color: var(--primary-color);
+  padding: 16px 42px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+.btn-signin:hover {
+  background-color: var(--white);
+  color: var(--secondary-color);
+  text-decoration: underline;
+  outline: 2px solid var(--primary-color);
+  box-shadow: 0px 1px 4px var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+.hero-btns a:last-child {
+  color: #314584;
+  padding: 17px 35px;
+  font-size: 1rem;
+}
+
+.hero-btns a:last-child:hover {
+  color: #ff3946;
+  transition: all 0.3s ease;
+}
+
+.navbar-light .navbar-toggler {
+  color: #314584;
+  border: none;
+}
+
+.navbar-toggler {
+  padding: 0.5rem 1.2rem 0.25rem 0rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.interactive-menu-button {
+  position: relative;
+}
+
+.interactive-menu-button a {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+}
+
+.interactive-menu-button a span {
+  height: 4px;
+  position: absolute;
+  background: #314584;
+  text-indent: -999em;
+  width: 100%;
+  top: 6px;
+  transition: all 0.5s cubic-bezier(0, 0.275, 0.125, 1);
+}
+
+.interactive-menu-button a span:before,
+.interactive-menu-button a span:after {
+  content: "";
+  height: 4px;
+  background: #314584;
+  width: 100%;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  transition: all 0.5s cubic-bezier(0, 0.275, 0.125, 1);
+}
+
+.interactive-menu-button a span:after {
+  top: 6px;
+}
+
+.interactive-menu-button a.active span {
+  background: transparent;
+}
+
+.interactive-menu-button a.active span:before {
+  transform: translateY(6px) translateX(1px) rotate(45deg);
+}
+
+.interactive-menu-button a.active span:after {
+  transform: translateY(-6px) translateX(1px) rotate(-45deg);
+}
+
+.navbar-nav .dropdown-menu {
+  text-align: center;
+  border: 0;
+  background-color: #314584;
+}
+
+.navbar-nav .dropdown-menu a {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin: 10px 0px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #ff3946 !important;
+  text-decoration: none;
+  background-color: #314584;
+}
+
+.service-btn a {
+  color: #fff !important;
+  font-size: 0.8rem !important;
+}
+
+.service-btn a:hover {
+  color: #ff3946 !important;
+}
+
+.more-btn {
+  text-align: center;
+  margin: 15px 0px 100px 0px;
+}
+
+.more-btn a {
+  font-size: 1.2rem;
+  color: #ff3946 !important;
+  cursor: pointer;
+  padding: 20px 30px;
+}
+
+.more-btn a:hover {
+  color: #314584 !important;
+}
+
+.contact-btn {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.contact-btn a {
+  color: #fff !important;
+}
+
+.contact-btn a:hover {
+  color: #314584 !important;
+}
+.scroll {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

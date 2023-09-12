@@ -1,0 +1,168 @@
+#user {
+    .user {
+
+        margin-bottom: 24px;
+
+        .user__info,
+        .user__show {
+
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            padding: 24px;
+
+            ul {
+                height: 80%;
+            }
+
+            .user__info-image {
+                width: fit-content;
+                height: fit-content;
+                background-color: rgb(240, 240, 240);
+                border: 1px solid var(--primary-color);
+                border-radius: 50%;
+                overflow: hidden;
+                
+                img {
+                    vertical-align: middle;
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            .user__info-detail {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 24px 0;
+                p {
+                    width: 100%;
+                    .title {
+                        width: 40%;
+                        float: left;
+                    }
+                    .content {
+                        width: 60%;
+                        float: right;
+                        font-weight: 800;
+                    }
+                }
+            }
+            .user__info-controller {
+                width: 100%;
+                display: flex;
+                padding: 0;
+                margin: 0;
+                .btn-edit,
+                .btn-log-out,
+                .btn-back,
+                .btn-submit {
+                    flex: 1;
+                    min-width: 240px;
+                    border: none;
+                    outline: none;
+                    color: var(--white-color);
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 1rem;
+                    border-radius: 10px;
+                    padding: 12px 48px;
+                    margin: 8px 0px;
+
+                    &:hover {
+                        outline: 2px solid var(--primary-color);
+                        color: var(--secondary-color);
+                        background-color: var(--white-color);
+                        text-decoration: underline;
+                        box-shadow: 0 0 6px var(--primary-color);
+                        transition: 0.3s ease-out;
+                    }
+                }
+
+                .btn-edit{
+                    float: left;
+                    background-color: var(--secondary-color);
+
+                    &:hover {
+                        outline: 2px solid var(--secondary-color);
+                        color: var(--secondary-color);
+                        background-color: var(--white-color);
+                        text-decoration: underline;
+                        box-shadow: 0 0 6px var(--secondary-color);
+                        transition: 0.3s ease-out;
+                    }
+                }
+                .btn-log-out {
+                    float: right;
+                    background-color: var(--primary-color);
+                }
+            }
+        }
+        .user__show {
+            
+            padding: 0;;
+            h3 {
+                width: 100%;
+                padding: 36px;
+                text-align: left;
+            }
+            .survey__list {
+                width: 100%;
+                padding: 0 36px 36px 36px;
+                margin-bottom: 36px;
+                list-style-type: none;
+                li {
+                    padding-bottom: 36px;
+                    text-align: justify;
+                    h5 {
+                        color: var(--secondary-color);
+                    }
+
+                }
+            }
+            .user__info-controller {
+                width: 100%;
+                display: block;
+                .btn-back {
+                    float: right;
+                    background-color: rgb(215, 212, 0);
+                }
+                .btn-submit {
+                    float: left;
+                    background-color: green;
+                }
+            }
+            form {
+                width: 100%;
+                padding: 0 36px;
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    #input-with-label {
+                        padding: 24px 16px;
+                        overflow: hidden;
+                    }
+                }
+                .form__avatar {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 12px 16px;
+
+                    svg {
+                        cursor: pointer;
+                    }
+                }
+                .alert-info {
+                    padding: 12px 16px;
+                    background-color: transparent;
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+    
+}
