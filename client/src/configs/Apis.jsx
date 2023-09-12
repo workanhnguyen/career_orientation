@@ -18,5 +18,6 @@ export let endpoints = {
 }
 
 export default axios.create({
-    baseURL: variables.BASE_DIR
+    // baseURL: variables.BASE_DIR
+    baseURL: "http://localhost:8000/"
 })

@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e44801b0-136a-4d69-a236-f7cdfa88624c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/adminapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/adminapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminapp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="e44801b0-136a-4d69-a236-f7cdfa88624c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
